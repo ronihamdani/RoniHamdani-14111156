@@ -21,6 +21,7 @@ include 'connect.php';
             <li><a href="#">Menu 2</a></li>
             <li><a href="#">Menu 3</a></li>
             <li><a href="#">Menu 4</a></li>
+            <li id="logout"><a href="logout.php">Logout</a></li>
         </ul>
     </nav>
 </div>
