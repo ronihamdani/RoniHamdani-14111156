@@ -12,12 +12,12 @@ if (isset($_GET['id'])) {
     $query = $dbh->query("SELECT * FROM tabel_biodata WHERE id = '$_GET[id]'");
     $data  = $query->fetch(PDO::FETCH_ASSOC);
 } else {
-    echo "ID tidak tersedia!<br /><a href='index.php'>Kembali</a>";
+    echo "ID tidak tersedia!<br /><a href='beranda.php'>Kembali</a>";
     exit();
 }
 
 if ($data === false) {
-    echo "Data tidak ditemukan!<br /><a href='index.php'>Kembali</a>";
+    echo "Data tidak ditemukan!<br /><a href='beranda.php'>Kembali</a>";
     exit();
 }
 ?>
@@ -64,7 +64,7 @@ if ($data === false) {
     </form>
 </fieldset>
 <br />
-<center><a href="index.php">&Lt; Beranda</a></center>
+<center><a href="beranda.php">&Lt; Beranda</a></center>
 
 <footer>Roni Hamdani - 14.111.156<br>
 Mata Kulaih Pemrograman Web II</footer>

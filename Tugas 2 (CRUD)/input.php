@@ -42,7 +42,7 @@
     </form>
 </fieldset>
 <br />
-<center><a href="index.php">&Lt; Beranda</a></center>
+<center><a href="beranda.php">&Lt; Beranda</a></center>
 
 <footer>Roni Hamdani - 14.111.156<br>
 Mata Kulaih Pemrograman Web II</footer>

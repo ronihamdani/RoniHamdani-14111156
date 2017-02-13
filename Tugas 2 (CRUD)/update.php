@@ -10,5 +10,5 @@ if (isset($_POST)) {
     $dbh->exec($sql);
 }
 
-header("location:index.php");
+header("location:beranda.php");
 ?>
