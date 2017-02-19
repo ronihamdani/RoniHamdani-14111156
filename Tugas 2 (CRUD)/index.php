@@ -49,13 +49,14 @@ if (isset($_POST['login'])) {
         <h1>CRUD Operation</h1>
     </header>
 
+<br>
+<br>
 <form method="post">
+<br>
 <table widht="60%"
 align="center">
 	<tr>
-	<th align="center"
-colspan="2">Login <a href="daftar.php">-
-Daftar</a></th>
+	<th align="center" colspan="2">Login &nbsp;&nbsp;&nbsp;&nbsp;<a href="daftar.php">Daftar</a></th>
 	</tr>
 
 	<tr>
@@ -69,10 +70,12 @@ Daftar</a></th>
 	</tr>
 
 	<tr>
-	<td colspan="2" align="right"><input type="submit" value="Login" id ="login" name="login">
+	<td colspan="2" align="center"><input type="submit" value="Login" id ="login" name="login">
 	<input type="submit" value="Batal" name="batal"></td>
 	</tr>
 </table>
+<br>
+<br>
 </form>
 
 

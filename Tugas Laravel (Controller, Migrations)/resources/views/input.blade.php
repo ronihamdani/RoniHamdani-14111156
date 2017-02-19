@@ -1,15 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Tugas Operasi CRUD</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-<header>
-    <h1>CRUD Operation</h1>
-</header>
-
+@extends('templates.index')
+@section('content')
 <br>
 <fieldset style="width: 50%; margin: auto;">
     <legend>Form Tambah Data </legend>
@@ -41,11 +31,8 @@
             <input type="reset" value="Reset" onclick="return confirm('hapus data yang telah diinput?')">
         </p>
     </form>
-        <center><a href="beranda.php" font="calibri">&Lt; Beranda</a></center>
+        <center><a href="{{URL('beranda')}}" font="calibri">&Lt; Beranda</a></center>
 </fieldset>
 <br>
 
-<footer>Roni Hamdani - 14.111.156<br>
-Mata Kulaih Pemrograman Web II</footer>
-</body>
-</html>
+@stop

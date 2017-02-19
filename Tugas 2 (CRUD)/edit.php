@@ -26,6 +26,7 @@ if ($data === false) {
     <h1>CRUD Operation</h1>
 </header>
 
+<br>
 <fieldset style="width: 50%; margin: auto;">
     <legend>Form Edit Data</legend>
     
@@ -62,9 +63,10 @@ if ($data === false) {
             <input type="reset" value="Reset" onclick="return confirm('hapus data yang telah diinput?')">
         </p>
     </form>
+        <center><a href="beranda.php" font="calibri">&Lt; Beranda</a></center>
 </fieldset>
-<br />
-<center><a href="beranda.php">&Lt; Beranda</a></center>
+<br>
+
 
 <footer>Roni Hamdani - 14.111.156<br>
 Mata Kulaih Pemrograman Web II</footer>
